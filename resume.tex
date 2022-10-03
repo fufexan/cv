@@ -1,46 +1,41 @@
-% LaTeX resume using res.cltos
+% LaTeX resume using res.cls
 \documentclass[margin]{res}
-\usepackage{amsmath}
-\usepackage{mathtools}
 \usepackage{lipsum}
 \usepackage{datetime}
-\usepackage{fancyhdr}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{amsfonts}
 \usepackage{hyperref}
-\fancyhf{}
-\fancyfoot[L]{\vspace{25mm}\hspace{-35mm}\ddmmyyyydate\today\ \hfill Mihai Fufezan \hfill Page \thepage}
-\pagestyle{fancy}
-\topmargin = -10pt
-\hoffset = 90pt
 
 \begin{document}
 
 \moveleft.5\hoffset\centerline{\huge \bf Mihai-Cristian Fufezan}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
-\moveleft.36\hoffset\centerline{{\bf Email}: \href{mailto:fufexan@protonmail.com}{fufexan@protonmail.com} $\diamond $\hspace{2mm}{\bf GitHub}: \href{https://github.com/fufexan}{github.com/fufexan}}
+\moveleft.36\hoffset\centerline{{\bf Email}: \href{mailto:fufexan@protonmail.com}{fufexan@proton.me} $\diamond $\hspace{2mm}{\bf GitHub}: \href{https://github.com/fufexan}{github.com/fufexan}}
 \moveleft.5\hoffset\centerline{{\bf LinkedIn:} \href{https://linkedin.com/in/mihai-fufezan}{linkedin.in/mihai-fufezan}}
 
 
 \begin{resume}
   \thispagestyle{empty}
-  \enlargethispage{45mm}
   \section{PERSONAL STATEMENT}
-  First year Computer Engineering student with a passion for developing great programs and managing systems. Enjoys finding the intersection between fast, correct, and elegant code.
+  Second year Computer Engineering student with a passion for developing great programs and managing systems. Enjoys finding the intersection between fast, correct, and elegant code.
 
   \section{EXPERIENCE}
+  {\bf NixOS Foundation - Contracting} \hfill \textit{2022}\\
+  \begin{itemize}
+    \item Took part in a team of participants to package NGI (Next Generation Internet) applications with Nix for \href{https://summer.nixos.org}{\textbf{Summer of Nix}} program, as well as developing dream2nix and improving the overall Nix/OS documentation.
+    \item Used \href{https://github.com/nix-community/dream2nix}{\textbf{dream2nix}} to package projects written in JavaScript and Python.
+    \item Contributed to the development of \href{https://github.com/nix-community/dream2nix}{\textbf{dream2nix}}.
+    \item Improved documentation of several areas of the \href{https://nixos.wiki}{\textbf{NixOS Wiki}}.
+    \item Created publicly-available flakes accessible on the \href{https://github.com/ngi-nix}{\textbf{NGI-Nix repo}}.
+  \end{itemize}
+
   {\bf NixOS Foundation - Contracting} \hfill \textit{2021}\\
-  \vspace{-3mm}
   \begin{itemize}
     \item Took part in a team of 5 fulltime contractors to package 20+ NGI (Next Generation Internet) applications with Nix for \href{https://summer.nixos.org}{\textbf{Summer of Nix}} program.
     \item Packaged programs on my own, as well as collaborating with others.
     \item Learned different techniques of packaging projects written in the following languages and familiarized myself with their build tools: C, JavaScript, OCaml, Python.
     \item Created publicly-available flakes accessible on the \href{https://github.com/ngi-nix}{\textbf{NGI-Nix repo}}.
   \end{itemize}
-  \vspace{-3mm}
+
   {\bf Digital Nation - Apprenticeship} \hfill \textit{2019 - 2020}\\
-  \vspace{-3mm}
   \begin{itemize}
     \item Participated as an apprentice in the \href{https://generatiatech.ro}{\textbf{Generația Tech}} program.
     \item Learned PHP development using WordPress themes \& plugins, under the guidance of skilled mentors.
@@ -54,33 +49,41 @@
   {\bf Version Control:} Git\\
   {\bf Build Tools:} Nix\\
   {\bf Operating systems:} Linux\\
-  {\bf DevOps:} QEMU, NixOS\\
+  {\bf DevOps:} QEMU, NixOS, Terraform\\
   {\bf Tools:} (Neo)Vim, Helix, Kakoune\\
 
-  \vspace{-6mm}
   {\bf Social skills:} Worked in multiple pairs and teams, participated in team-building activities.
 
   \section{PERSONAL PROJECTS}
-  {\bf \href{https://github.com/fufexan/dotfiles}{Personal Infra}} \hfill \textit{2021 - Present}\\
-  \vspace{-4mm}
-  \begin{itemize} %\itemsep -2pt %reduce space between
-    \item Managing my own machines running NixOS through the use of Git and Flakes. Every machine is accessible everywhere through Tailscale VPN.
-    \item \textbf{Home Server:} Simple samba-based file transfer solution, paired with SFTP.
-   % \vspace{-3mm}
+
+  {\bf \href{https://github.com/fufexan/dotfiles}{Dotfiles}} \hfill \textit{2021 - Present}\\
+  \begin{itemize}
+    \item Managing my own desktop machines running NixOS through the use of Git and Flakes.
+    \item Every machine is accessible everywhere through Tailscale VPN.
   \end{itemize}
-  \vspace{-3mm}
-  {\bf \href{https://github.com/fufexan/nix-gaming}{Nix-Gaming}} \hfill \textit{2021 - Present}\\
-  \vspace{-3mm}
-  \begin{itemize} %\itemsep -2pt %reduce space between
+
+
+  {\bf \href{https://github.com/fufexan/infra}{Infrastructure}} \hfill \textit{2022 - Present}\\
+  \begin{itemize}
+    \item Server management provisioned through Terraform, running multiple services as modules on NixOS. Accessible through Tailscale VPN.
+    \item \textbf{Alpha:} ARM server running multiple services such as Minecraft and Matrix Synapse.
+    \item \textbf{Home Server:} Simple samba-based file transfer solution, paired with SFTP.
+  \end{itemize}
+
+  {\bf \href{https://github.com/fufexan/nix-gaming}{Nix Gaming}} \hfill \textit{2021 - Present}\\
+  \begin{itemize}
     \item Repo hosting an ever-growing collection of games and gaming-related programs packaged for Nix.
   \end{itemize}
 
-  \pagebreak
+  {\bf Contributions}
+  \begin{itemize}
+    \item \href {https://github.com/hyprwm}{\textbf{Hyprland and utilities}}
+    \item \href {https://github.com/nixos/nixpkgs}{\textbf{Nixpkgs}}
+    \item \href {https://github.com/nix-community}{\textbf{Nix Community tools}}
+  \end{itemize}
 
   \section{EDUCATION}
   {\bf Bachelor's degree in Electronics, Telecommunications \& Information Technology}, Technical University of Cluj-Napoca \hfill \textit{2021 - Present}\\
-  
-  \vspace{-6mm}
   {\bf High School diploma in Mathematics \& Informatics}, "Titu Maiorescu" National College, Aiud \hfill \textit{2017 - 2021}\\
 
   \section{DIPLOMAS}
