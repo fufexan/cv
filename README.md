@@ -10,4 +10,4 @@ Now open `result/resume.pdf` using your preferred PDF viewer.
 
 ### Prebuilt
 
-You can find a PDF copy of the resume [here](https://github.com/NixOS/nixpkgs/files/11006859/resume.pdf).
+You can find a PDF copy of the resume [here](https://github.com/fufexan/resume/files/11460497/CV_MihaiFufezan.pdf).
