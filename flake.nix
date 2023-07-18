@@ -10,10 +10,6 @@
       systems = ["aarch64-linux" "aarch64-darwin" "x86_64-linux" "x86_64-darwin"];
 
       perSystem = {pkgs, ...}: let
-        tex-env = pkgs.texlive.combine {
-          inherit (pkgs.texlive) scheme-medium lipsum fmtcount datetime;
-        };
-
         mkDate = longDate:
           with builtins; (concatStringsSep "-" [
             (substring 0 4 longDate)
@@ -22,8 +18,12 @@
           ]);
       in {
         devShells.default = pkgs.mkShell {
-          packages = [tex-env];
-          name = "LaTeX";
+          packages = with pkgs; [
+            typst
+            typst-fmt
+            typst-lsp
+          ];
+          name = "Resume";
         };
 
         packages.default = pkgs.stdenv.mkDerivation {
@@ -31,10 +31,34 @@
           version = mkDate (self.lastModifiedDate or "19700101");
           src = self;
 
-          buildInputs = [tex-env];
+          nativeBuildInputs = [pkgs.typst];
 
-          buildPhase = "latexmk -pdf";
-          installPhase = "mkdir -p $out/; mv *.pdf $out/";
+          postConfigure = ''
+            mkdir src/fonts
+            ln -s ${pkgs.font-awesome}/share/fonts/opentype/* src/fonts/
+            ln -s ${pkgs.roboto}/share/fonts/truetype/* src/fonts/
+            ln -s ${pkgs.source-sans-pro}/share/fonts/truetype/* src/fonts/
+          '';
+
+          TYPST_FONT_PATHS = "src/fonts";
+
+          buildPhase = ''
+            runHook preBuild
+
+            typst compile cv.typ
+
+            runHook postBuild
+          '';
+
+          installPhase = ''
+            runHook preInstall
+
+            mkdir -p $out
+            mv *.pdf $out
+            mv $out/cv.pdf $out/CV_MihaiFufezan.pdf
+
+            runHook postInstall
+          '';
         };
       };
     };
