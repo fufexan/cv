@@ -9,7 +9,7 @@
   //homepage: "fufexan.net",
 )
 #let headerQuote = [
-  Second year Computer Engineering student with a passion for developing great
+  Third year Computer Engineering student with a passion for developing great
   programs and managing systems. Enjoys finding the intersection between fast,
   correct and elegant code.
 ]
@@ -18,7 +18,7 @@
 // Optional: skyblue, red, nephritis, concrete, darknight
 #let awesomeColor = "skyblue"
 
-#let profilePhoto = ""
+#let profilePhoto = "./avatar.png"
 
 // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 #let varLanguage = ""

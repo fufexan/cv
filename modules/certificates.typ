@@ -33,6 +33,12 @@
 	issuer: [CodeRun],
 )
 
+#cvHonor(
+	date: [2023],
+	title: [#link("https://drive.google.com/file/d/1SBUgEqI3Z-jnr1mAVzYDrcdMqNi6UTGN/view")[Participation]],
+	issuer: [STS Bootcamp],
+)
+
 #cvSection("Certificates")
 
 #cvHonor(

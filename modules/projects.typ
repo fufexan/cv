@@ -8,9 +8,8 @@
 	date: [2021 - Present],
 	location: [],
 	description: list(
-		[Managing my own desktop machines running NixOS through the use of Git and
-		Flakes],
-		[Every machine is accessible everywhere through Tailscale VPN],
+		[Managing my desktop machines running NixOS using Git and Flakes],
+		[Every machine is accessible everywhere through Tailscale],
 		[Useful configurations accumulated over the years],
 	)
 )
@@ -21,10 +20,10 @@
 	date: [2022 - Present],
 	location: [],
 	description: list(
-		[Server management provisioned through Terraform, running multiple services as
-		modules on NixOS. Accessible through Tailscale VPN],
+		[Server management provisioned through Terraform, running NixOS, connected over
+		Tailscale],
 		[*alpha*: Oracle ARM VPS running multiple services],
-		[*home server*: Older machine running various services for my family and I],
+		[*home server*: Older machine running various services at home],
 	)
 )
 
@@ -34,7 +33,7 @@
 	date: [2021 - Present],
 	location: [],
 	description: list(
-		[Repo hosting an ever-growing collection of games and gaming-related programs
+		[Repo hosting an ever-growing collection of games and related software
 		packaged for Nix],
 	)
 )
@@ -45,7 +44,7 @@
 	date: [],
 	location: [],
 	description: list(
-		[Maintainer of the #link("https://github.com/hyprwm")[Hyprland and the Hyprland ecosystem]],
+		[Maintainer of #link("https://github.com/hyprwm")[Hyprland and HyprWM]],
 		[Maintainer for #link("https://github.com/NixOS/nixpkgs")[Nixpkgs]],
 		[Contributor to #link("https://github.com/nix-community")[Nix Community projects]],
 	)
