@@ -1,13 +1,13 @@
-# Mihai Fufezan Resume
+# Mihai Fufezan CV
 
-Resume written in LaTeX, built using Nix.
+Resume written in [Typst](https://typst.app), built using Nix.
 
 ### Building
 
-`nix build github:fufexan/resume`
+`nix build github:fufexan/cv`
 
-Now open `result/resume.pdf` using your preferred PDF viewer.
+Now open `result/CV_MihaiFufezan.pdf` using your preferred PDF viewer.
 
 ### Prebuilt
 
-You can find a PDF copy of the resume [here](https://github.com/fufexan/resume/files/11460497/CV_MihaiFufezan.pdf).
+You can find a PDF copy of the CV [here](https://github.com/fufexan/resume/files/11460497/CV_MihaiFufezan.pdf).
