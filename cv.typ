@@ -1,7 +1,7 @@
 #import "src/template.typ": *
 #show: layout
 
-#cvHeader(hasPhoto: true, align: left)
+#cvHeader(hasPhoto: false, align: left)
   #autoImport("education")
   #autoImport("skills")
   #autoImport("experience")

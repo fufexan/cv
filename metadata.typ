@@ -6,7 +6,7 @@
   github: "fufexan",
   email: "mihai@fufexan.net",
   linkedin: "mihai-fufezan",
-  //homepage: "fufexan.net",
+  homepage: "fufexan.net",
 )
 #let headerQuoteInternational = (
   "": [Third year Computer Engineering student with a passion for developing great
