@@ -9,17 +9,17 @@
 
 #cvSkill(
 	type: [Prog. languages],
-	info: [Bash, C/C++, Java, JavaScript, Matlab, Nix, PHP, Python, Rust],
+	info: [Bash, C/C++, Java, JavaScript, MATLAB, Nix, PHP, Python, Rust],
 )
 
 #cvSkill(
 	type: [Databases],
-	info: [Microsoft SQL, MySQL, Firestore],
+	info: [Microsoft SQL, MySQL, Firestore, Postgres],
 )
 
 #cvSkill(
 	type: [Build tools],
-	info: [CMake, Meson, Nix],
+	info: [CMake, Maven, Meson, Nix],
 )
 
 #cvSkill(
