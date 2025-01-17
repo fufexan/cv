@@ -4,6 +4,20 @@
 #cvSection("Experiență")
 
 #cvEntry(
+  title: [Software developer],
+  society: [ASEE],
+  logo: "../src/logos/asee.svg",
+  date: [2024 - prezent],
+  location: [La distanță],
+  description: list(
+    [A lucrat cu servicii Azure și Tungsten Automation],
+    [A contribuit la documentație tehnică internă],
+    [A creat și menținut proof-of-concepts pentru potențiale aplicații și servicii],
+    [A obținut certificări pentru Tungsten Automation Capture și Transformation Modules],
+  )
+)
+
+#cvEntry(
   title: [Contract],
   society: [NixOS Foundation],
   logo: "../src/logos/nixos.svg",
