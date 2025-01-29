@@ -9,10 +9,10 @@
   homepage: "fufexan.net",
 )
 #let headerQuoteInternational = (
-  "": [Third year Computer Engineering student with a passion for developing great
+  "": [Fourth year Computer Engineering student with a passion for developing great
   programs and managing systems. Enjoys finding the intersection between fast,
   correct and elegant code.],
-  "ro": [Student ETTI în anul trei, cu o pasiune pentru dezvoltarea de programe
+  "ro": [Student ETTI în anul patru, cu o pasiune pentru dezvoltarea de programe
   grozave și gestionarea sistemelor. Se străduiește să găsească intersecția
   între cod rapid, corect și elegant.],
 )

@@ -13,5 +13,5 @@ Now open `result/CV[_ro]_MihaiFufezan.pdf` using your preferred PDF viewer.
 
 You can find a PDF copy of the CV here:
 
-- [English](https://github.com/user-attachments/files/18454821/CV_MihaiFufezan.pdf)
-- [Romanian](https://github.com/user-attachments/files/18454820/CV_ro_MihaiFufezan.pdf)
+- [English](https://github.com/user-attachments/files/18589457/CV_MihaiFufezan.pdf)
+- [Romanian](https://github.com/user-attachments/files/18589456/CV_ro_MihaiFufezan.pdf)
