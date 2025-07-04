@@ -13,8 +13,8 @@
     [Worked with Azure and Tungsten Automation services],
     [Contributed to internal technical documentation],
     [Created and maintained PoCs for potential apps and services],
-    [Obtained certifications for Tungsten Automation Capture and Transformation Modules],
-  )
+    [Prototyped Agentic AI solutions],
+  ),
 )
 
 #cvEntry(
@@ -25,14 +25,14 @@
   location: [Remote],
   description: list(
     [Took part in a team of participants to package NGI (Next Generation Internet)
-    applications with #link("https://nixos.org")[Nix] for the
-    #link("https://summer.nixos.org")[Summer of Nix] program, as well as developing
-    dream2nix and improving the overall Nix/NixOS documentation],
+      applications with #link("https://nixos.org")[Nix] for the
+      #link("https://summer.nixos.org")[Summer of Nix] program, as well as developing
+      dream2nix and improving the overall Nix/NixOS documentation],
     [Improved documentation of several areas of the
-    #link("https://nixos.wiki")[NixOS Wiki]],
+      #link("https://nixos.wiki")[NixOS Wiki]],
     [Created publicly-available flakes accessible on the
-    #link("https://github.com/ngi-nix")[NGI-Nix organization]],
-  )
+      #link("https://github.com/ngi-nix")[NGI-Nix organization]],
+  ),
 )
 
 #cvEntry(
@@ -43,12 +43,12 @@
   location: [Remote],
   description: list(
     [Participated as an apprentice in the #link("https://generatiatech.ro")[Generația
-    Tech] program],
+        Tech] program],
     [Learned PHP development using WordPress themes & plugins, under the guidance of
-    skilled mentors],
+      skilled mentors],
     [Learned JavaScript back-end and front-end development, Firebase management and
-    integration],
+      integration],
     [Was local ambassador for the Alba county regional group. Participated in team
-    management, administration, logistics],
-  )
+      management, administration, logistics],
+  ),
 )

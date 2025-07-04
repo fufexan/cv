@@ -9,12 +9,12 @@
   homepage: "fufexan.net",
 )
 #let headerQuoteInternational = (
-  "": [Fourth year Computer Engineering student with a passion for developing great
-  programs and managing systems. Enjoys finding the intersection between fast,
-  correct and elegant code.],
+  "": [Fourth year Electronics, Telecommunications & Information Technology student
+    with a passion for developing great programs and managing systems. Enjoys
+    finding the intersection between fast, correct and elegant code.],
   "ro": [Student ETTI în anul patru, cu o pasiune pentru dezvoltarea de programe
-  grozave și gestionarea sistemelor. Se străduiește să găsească intersecția
-  între cod rapid, corect și elegant.],
+    grozave și gestionarea sistemelor. Se străduiește să găsească intersecția
+    între cod rapid, corect și elegant.],
 )
 
 /* Layout settings */

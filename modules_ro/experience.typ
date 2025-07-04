@@ -13,8 +13,8 @@
     [A lucrat cu servicii Azure și Tungsten Automation],
     [A contribuit la documentație tehnică internă],
     [A creat și menținut proof-of-concepts pentru potențiale aplicații și servicii],
-    [A obținut certificări pentru Tungsten Automation Capture și Transformation Modules],
-  )
+    [A creat prototipuri de soluții Agentic AI],
+  ),
 )
 
 #cvEntry(
@@ -25,13 +25,13 @@
   location: [La distanță],
   description: list(
     [A luat parte într-o echipă de participanți pentru a face packaging în
-    #link("https://nixos.org")[Nix] aplicațiilor NGI (Next Generation Internet)
-    pentru programul #link("https://summer.nixos.org")[Summer of Nix], dar și pentru
-    a îmbunătăți documentația generală a Nix/NixOS],
+      #link("https://nixos.org")[Nix] aplicațiilor NGI (Next Generation Internet)
+      pentru programul #link("https://summer.nixos.org")[Summer of Nix], dar și pentru
+      a îmbunătăți documentația generală a Nix/NixOS],
     [A îmbunătățit documentația în anumite părți ale #link("https://nixos.wiki")[NixOS Wiki]],
     [A creat flake-uri disponibile în mod public în
-    #link("https://github.com/ngi-nix")[organizația NGI-Nix]],
-  )
+      #link("https://github.com/ngi-nix")[organizația NGI-Nix]],
+  ),
 )
 
 #cvEntry(
@@ -42,12 +42,12 @@
   location: [La distanță],
   description: list(
     [A participat ca beneficiar în programul
-    #link("https://generatiatech.ro")[Generația Tech]],
+      #link("https://generatiatech.ro")[Generația Tech]],
     [A învățat dezvoltare PHP utilizând teme și plugin-uri WordPress, cu ajutorul unor
-    mentori pricepuți],
+      mentori pricepuți],
     [A învățat dezvoltare back-end și front-end în JavaScript, gestionare și
-    integrare Firebase],
+      integrare Firebase],
     [A fost ambasador pentru grupul local al județului Alba. A participat în
-    gestionare, administrare, logistică și activități de grup],
-  )
+      gestionare, administrare, logistică și activități de grup],
+  ),
 )
