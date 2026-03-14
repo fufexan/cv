@@ -3,32 +3,42 @@
 #cvSection("Skills")
 
 #cvSkill(
-	type: [Spoken languages],
-	info: [English, Romanian],
+  type: [Spoken languages],
+  info: [English, Romanian],
 )
 
 #cvSkill(
-	type: [Prog. languages],
-	info: [Bash, C/C++, Java, JavaScript, MATLAB, Nix, PHP, Python, Rust],
+  type: [Prog. languages],
+  info: [Bash, C/C++, Java, JavaScript, MATLAB, Nix, PHP, Python, Rust],
 )
 
 #cvSkill(
-	type: [Databases],
-	info: [Microsoft SQL, MySQL, Firestore, Postgres],
+  type: [Frontend],
+  info: [Angular, VueJS],
 )
 
 #cvSkill(
-	type: [Build tools],
-	info: [CMake, Maven, Meson, Nix],
+  type: [Backend],
+  info: [Spring/Spring Boot, Quarkus],
 )
 
 #cvSkill(
-	type: [DevOps],
-	info: [NixOS, QEMU, Terraform],
+  type: [Databases],
+  info: [Microsoft SQL, MySQL, Firestore, Postgres],
 )
 
 #cvSkill(
-	type: [Social skills],
-	info: [Worked in multiple teams, participated in team-building activities.
-	Working with people is a strong point.],
+  type: [Build tools],
+  info: [CMake, Gradle, Maven, Meson, Nix],
+)
+
+#cvSkill(
+  type: [DevOps],
+  info: [NixOS, QEMU, Terraform],
+)
+
+#cvSkill(
+  type: [Social skills],
+  info: [Worked in multiple teams, participated in team-building activities.
+    Working with people is a strong point.],
 )
