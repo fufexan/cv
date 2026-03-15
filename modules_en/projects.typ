@@ -1,8 +1,8 @@
-#import "../src/template.typ": *
+#import "@preview/brilliant-cv:3.2.0": cv-entry, cv-section
 
-#cvSection("Projects & Associations")
+#cv-section("Projects & Associations")
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/dotfiles")[dotfiles]],
   society: [],
   date: [2021 - present],
@@ -14,25 +14,29 @@
   ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/infra")[Infrastructure]],
   society: [],
   date: [2022 - present],
   location: [],
-  description: list([Server management provisioned through Terraform, running NixOS, connected over
-    Tailscale]),
+  description: list(
+    [Server management provisioned through Terraform, running NixOS, connected over
+      Tailscale],
+  ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/nix-gaming")[nix-gaming]],
   society: [],
   date: [2021 - present],
   location: [],
-  description: list([Repo hosting an ever-growing collection of games and related software
-    packaged for Nix]),
+  description: list(
+    [Repo hosting an ever-growing collection of games and related software
+      packaged for Nix],
+  ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [Contributions],
   society: [],
   date: [],

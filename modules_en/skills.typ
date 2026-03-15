@@ -1,43 +1,43 @@
-#import "../src/template.typ": *
+#import "@preview/brilliant-cv:3.2.0": cv-section, cv-skill
 
-#cvSection("Skills")
+#cv-section("Skills")
 
-#cvSkill(
-  type: [Spoken languages],
+#cv-skill(
+  type: [Languages],
   info: [English, Romanian],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Prog. languages],
   info: [Bash, C/C++, Java, JavaScript, MATLAB, Nix, PHP, Python, Rust],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Frontend],
   info: [Angular, VueJS],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Backend],
   info: [Spring/Spring Boot, Quarkus],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Databases],
   info: [Microsoft SQL, MySQL, Firestore, Postgres],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Build tools],
   info: [CMake, Gradle, Maven, Meson, Nix],
 )
 
-#cvSkill(
+#cv-skill(
   type: [DevOps],
   info: [NixOS, QEMU, Terraform],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Social skills],
   info: [Worked in multiple teams, participated in team-building activities.
     Working with people is a strong point.],

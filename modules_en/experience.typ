@@ -1,12 +1,12 @@
-#import "../src/template.typ": *
+#import "@preview/brilliant-cv:3.2.0": cv-entry, cv-section
 #show link: underline
 
-#cvSection("Experience")
+#cv-section("Experience")
 
-#cvEntry(
+#cv-entry(
   title: [Software developer],
   society: [ASEE],
-  logo: "../src/logos/asee.svg",
+  logo: image("../assets/logos/asee.svg"),
   date: [2024 - present],
   location: [Remote],
   description: list(
@@ -17,10 +17,10 @@
   ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [Contracting],
   society: [NixOS Foundation],
-  logo: "../src/logos/nixos.svg",
+  logo: image("../assets/logos/nixos.svg"),
   date: [2021, 2022],
   location: [Remote],
   description: list(
@@ -35,10 +35,10 @@
   ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [Apprenticeship],
   society: [Digital Nation],
-  logo: "../src/logos/dn.jpg",
+  logo: image("../assets/logos/dn.jpg"),
   date: [2019 - 2020],
   location: [Remote],
   description: list(

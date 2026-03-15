@@ -1,8 +1,8 @@
-#import "../src/template.typ": *
+#import "@preview/brilliant-cv:3.2.0": cv-entry, cv-section
 
-#cvSection("Proiecte și Asocieri")
+#cv-section("Proiecte și Asocieri")
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/dotfiles")[dotfiles]],
   society: [],
   date: [2021 - Prezent],
@@ -14,25 +14,29 @@
   ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/infra")[Infrastructură]],
   society: [],
   date: [2022 - Prezent],
   location: [],
-  description: list([Gestionarea serverelor, furnizate prin Terraform, rulând NixOS, conectate prin
-    Tailscale]),
+  description: list(
+    [Gestionarea serverelor, furnizate prin Terraform, rulând NixOS, conectate prin
+      Tailscale],
+  ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [#link("https://github.com/fufexan/nix-gaming")[nix-gaming]],
   society: [],
   date: [2021 - Prezent],
   location: [],
-  description: list([Repo care găzduiește o colecție de jocuri și programe asociate, packaged pentru
-    Nix]),
+  description: list(
+    [Repo care găzduiește o colecție de jocuri și programe asociate, packaged pentru
+      Nix],
+  ),
 )
 
-#cvEntry(
+#cv-entry(
   title: [Contribuții],
   society: [],
   date: [2021 - Prezent],

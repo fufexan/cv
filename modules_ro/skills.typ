@@ -1,43 +1,43 @@
-#import "../src/template.typ": *
+#import "@preview/brilliant-cv:3.2.0": cv-section, cv-skill
 
-#cvSection("Skills")
+#cv-section("Abilități")
 
-#cvSkill(
+#cv-skill(
   type: [Limbi vorbite],
   info: [Română, Engleză],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Limbaje de prog.],
   info: [Bash, C/C++, Java, JavaScript, MATLAB, Nix, PHP, Python, Rust],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Frontend],
   info: [Angular, VueJS],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Backend],
   info: [Spring/Spring Boot, Quarkus],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Baze de date],
   info: [Microsoft SQL, MySQL, Firestore, Postgres],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Build tools],
   info: [CMake, Gradle, Maven, Meson, Nix],
 )
 
-#cvSkill(
+#cv-skill(
   type: [DevOps],
   info: [NixOS, QEMU, Terraform],
 )
 
-#cvSkill(
+#cv-skill(
   type: [Skilluri sociale],
   info: [A lucrat în echipe multiple, a participat în activități de team-building.
     Lucrul în echipă este un punct forte.],
