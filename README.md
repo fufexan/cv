@@ -1,17 +1,25 @@
 # Mihai Fufezan CV
 
-Resume written in [Typst](https://typst.app), built using Nix.
+Resume written in [Typst](https://typst.app) using [Brilliant-CV](https://github.com/yunanwg/brilliant-CV), built using Nix.
 
-### Building
+## Building
+
+### Typst
+
+Clone this repo, and then run
+
+- `typst compile cv.typ` - English version
+- `typst compile cv.typ --input language=ro` - Romanian version
+
+Now open `cv.pdf` using your preferred PDF viewer.
+
+### Nix
 
 - `nix build github:fufexan/cv` - English version
 - `nix build github:fufexan/cv#romanian` - Romanian version
 
-Now open `result/CV[_ro]_MihaiFufezan.pdf` using your preferred PDF viewer.
+Now open `result` using your preferred PDF viewer.
 
-### Prebuilt
+## Prebuilt
 
-You can find a PDF copy of the CV here:
-
-- [English](https://github.com/user-attachments/files/18589457/CV_MihaiFufezan.pdf)
-- [Romanian](https://github.com/user-attachments/files/18589456/CV_ro_MihaiFufezan.pdf)
+You can find PDF copies the CV [here](https://drive.google.com/drive/folders/19vrZkiZclVhZ8ezEeNjeJ5nlv_Pwgzxo?usp=drive_link).
